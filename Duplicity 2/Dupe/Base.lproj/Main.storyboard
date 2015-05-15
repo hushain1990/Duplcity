@@ -519,7 +519,7 @@
                                     <action selector="cancel:" destination="0wd-wh-ODq" eventType="touchUpInside" id="qBm-jY-wqr"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D1327F75-D976-40E7-BD55-3546233DE59C" translatesAutoresizingMaskIntoConstraints="NO" id="pHa-vv-0Oz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CB81C6B2-ECF6-46EA-834B-AF3EBBD4531E" translatesAutoresizingMaskIntoConstraints="NO" id="pHa-vv-0Oz">
                                 <rect key="frame" x="19" y="43" width="558" height="1"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.57999999999999996" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1105,7 +1105,7 @@
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="2ua-b6-C5h">
                             <color key="tintColor" red="0.75686274509803919" green="0.17254901960784313" blue="0.50588235294117645" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="lAc-Wi-kOJ" kind="show" id="d9B-0o-lOc"/>
+                                <segue destination="GyU-eX-VMt" kind="show" id="8aF-tN-MfM"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -1898,7 +1898,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRK-89-yGA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1725" y="-402"/>
+            <point key="canvasLocation" x="1729" y="-930"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qBt-AM-zzD">
@@ -1909,7 +1909,7 @@
                         <viewControllerLayoutGuide type="bottom" id="6jX-MD-2d0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZpU-gf-Utb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uG8-I8-GSm">
@@ -2305,7 +2305,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nuz-Kg-Djg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aLu-hL-gUE">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3b-2q-9OU">
@@ -2609,7 +2609,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzb-aU-pSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2997" y="-430"/>
+            <point key="canvasLocation" x="3269" y="-1446"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="k5J-26-G1f">
@@ -2620,7 +2620,7 @@
                         <viewControllerLayoutGuide type="bottom" id="gxN-OQ-miJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YNR-yb-P6I">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gM2-a6-AHS">
@@ -2680,16 +2680,22 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkR-XA-hzg">
-                                <rect key="frame" x="0.0" y="64" width="600" height="268"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="236"/>
                                 <state key="normal" title="ADD DUPL">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0fa-lr-sTh" kind="show" id="6yj-IM-2hi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWh-ou-v2S">
-                                <rect key="frame" x="0.0" y="332" width="600" height="268"/>
+                                <rect key="frame" x="0.0" y="300" width="600" height="236"/>
                                 <state key="normal" title="ADD PRODUCT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="C0g-MA-nNa" kind="show" id="y30-mJ-22X"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -2712,7 +2718,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fBD-Ln-lc0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4285" y="-430"/>
+            <point key="canvasLocation" x="985" y="-846"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="suy-qu-gpg">
@@ -2723,7 +2729,7 @@
                         <viewControllerLayoutGuide type="bottom" id="hJW-BH-W5o"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KLd-zQ-HPG">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGK-GF-HhO">
@@ -2825,7 +2831,7 @@
                                             <action selector="cancel:" destination="0wd-wh-ODq" eventType="touchUpInside" id="6nL-x7-avG"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AF741FC9-B95F-4617-A68F-6C6E3AFC59C2" translatesAutoresizingMaskIntoConstraints="NO" id="1um-rY-9qI">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="E01C2B59-1615-448B-A35B-BE99528EDA6A" translatesAutoresizingMaskIntoConstraints="NO" id="1um-rY-9qI">
                                         <rect key="frame" x="23" y="49" width="558" height="1"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="0.57999999999999996" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2850,8 +2856,18 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="OuE-Zt-Um1">
-                                <rect key="frame" x="0.0" y="127" width="600" height="473"/>
+                                <rect key="frame" x="0.0" y="127" width="600" height="409"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="efU-bZ-3Yd">
+                                    <rect key="frame" x="-23" y="-15" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Add New Product">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <segue destination="G1L-0r-oXZ" kind="show" id="J4H-BD-7wz"/>
+                                    </connections>
+                                </button>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -3214,7 +3230,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AF741FC9-B95F-4617-A68F-6C6E3AFC59C2" width="1683" height="6">
+        <image name="CB81C6B2-ECF6-46EA-834B-AF3EBBD4531E" width="1683" height="6">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -3958,7 +3974,7 @@ rGaseKx7rIAAAAAAAAACAQAAAAAAAAA/AAAAAAAAAAAAAAAAAACsgg
 </mutableData>
         </image>
         <image name="Cancel.png" width="96" height="96"/>
-        <image name="D1327F75-D976-40E7-BD55-3546233DE59C" width="1683" height="6">
+        <image name="E01C2B59-1615-448B-A35B-BE99528EDA6A" width="1683" height="6">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
